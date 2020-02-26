@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name:       The Events Calendar Extension: Inherit Theme Fonts
- * Plugin URI:        https://theeventscalendar.com/extensions/---the-extension-article-url---/
+ * Plugin URI:        https://theeventscalendar.com/extensions/inherit-themes-fonts/
  * GitHub Plugin URI: https://github.com/mt-support/tribe-ext-inherit-theme-fonts
  * Description:       Inherit the theme's fonts rather than using the default for events and event views.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Extension Class:   Tribe\Extensions\Example\Main
  * Author:            Modern Tribe, Inc.
  * Author URI:        http://m.tri.be/1971
