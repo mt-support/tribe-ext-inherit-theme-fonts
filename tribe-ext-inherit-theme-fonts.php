@@ -54,6 +54,8 @@ if (
 		 */
 		public function init() {
 			add_action( 'wp_enqueue_scripts', function() {
+				// the CSS within this stylesheet was generated using the tribe-product-utils command against relevant plugins:
+				//   mt generate-css-override --search='"Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif' --replace="font-family: inherit;"
 				wp_enqueue_style( 'tribe-ext-inherit-fonts', plugins_url( 'src/resources/css/style.css', __FILE__ ), [ 'tribe-events-views-v2-full' ] );
 			} );
 		}
