@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       The Events Calendar Extension: Inherit Theme Fonts
- * Plugin URI:        https://theeventscalendar.com/extensions/---the-extension-article-url---/
+ * Plugin URI:        https://theeventscalendar.com/extensions/inherit-themes-fonts/
  * GitHub Plugin URI: https://github.com/mt-support/tribe-ext-inherit-theme-fonts
  * Description:       Inherit the theme's fonts rather than using the default for events and event views.
  * Version:           1.0.0
- * Extension Class:   Tribe\Extensions\Example\Main
+ * Extension Class:   Tribe\Extensions\InheritThemeFonts\Main
  * Author:            Modern Tribe, Inc.
  * Author URI:        http://m.tri.be/1971
  * License:           GPL version 3 or any later version
@@ -36,7 +36,7 @@ if ( ! defined( __NAMESPACE__ . '\NS' ) ) {
 }
 
 if ( ! defined( NS . 'PLUGIN_TEXT_DOMAIN' ) ) {
-	// `Tribe\Extensions\Example\PLUGIN_TEXT_DOMAIN` is defined
+	// `Tribe\Extensions\InheritThemeFonts\PLUGIN_TEXT_DOMAIN` is defined
 	define( NS . 'PLUGIN_TEXT_DOMAIN', 'tribe-ext-inherit-fonts' );
 }
 
@@ -60,6 +60,4 @@ if (
 			} );
 		}
 	} // end class
-
-	Main::instance();
 } // end if class_exists check
