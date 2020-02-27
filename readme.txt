@@ -1,4 +1,4 @@
-=== [Inherit Theme Fonts] ===
+=== The Events Calendar Extension: Inherit Theme Fonts ===
 Contributors: ModernTribe
 Donate link: http://m.tri.be/29
 Tags: events, calendar
